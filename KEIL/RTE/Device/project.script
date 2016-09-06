@@ -1,0 +1,4 @@
+load STM32F407VGTx 
+project name STCubeGenerated 
+project toolchain "MDK-ARM V5" 
+project path C:\Users\MuhsinFatih\Documents\quadcopter\RTE\Device\STM32F407VGTx\ 

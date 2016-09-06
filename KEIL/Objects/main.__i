@@ -1,0 +1,17 @@
+-c --cpu Cortex-M4.fp -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections
+-I C:\Users\MuhsinFatih\Documents\quadcopter\RTE
+-I C:\Users\MuhsinFatih\Documents\quadcopter\RTE\CMSIS_Driver
+-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Driver\Include
+-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include
+-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC
+-I C:\Keil_v5\ARM\PACK\Keil\ARM_Compiler\1.1.0\Include
+-I C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.1.0\Board
+-I C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.1.0\FileSystem\Include
+-I C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.1.0\USB\Include
+-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\STM32F4xx_HAL_Driver\Inc
+-I C:\Users\MuhsinFatih\Documents\quadcopter\RTE\Device\STM32F407VGTx
+-I C:\Users\MuhsinFatih\Documents\quadcopter\RTE\Device\STM32F407VGTx\STCubeGenerated\Inc
+-I STCubeGenerated\Inc
+-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F407xx --C99
+-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d "RTE\Device\STM32F407VGTx\STCubeGenerated\Src\main.c"

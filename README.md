@@ -18,5 +18,5 @@ Install this extension in vscode so you get better c/c++ intellisense: https://m
 # are you a visual studio fan?
 No. I have a macbook :P
 
-
+# can I contribute?
 If you have any ideas / fixes or whatever, submit a pull request, you are welcome.

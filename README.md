@@ -10,10 +10,13 @@ There is also a KEIL folder where there is an existing project which you can use
 # why this template? Why vscode?
 Because on high-dpi displays KEIL will screw your eyes with its use of outdated UI APIs. Besides, vscode is my fav editor I use many extensions its way more useful anyways.
 
-
 # do I have to do anything further to get this shit working?
 Only one:
 Install this extension in vscode so you get better c/c++ intellisense: https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools
+
+# which stm32 did you use for this template?
+stm32f4 discovery (STM32F407VGTx).
+You should be able to recreate KEIL project for your board and replace CMSIS folder and files under src/ and inc/ if necessary.
 
 # are you a visual studio fan?
 No. I have a macbook :P
